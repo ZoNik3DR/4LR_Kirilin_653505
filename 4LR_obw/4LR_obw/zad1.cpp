@@ -10,7 +10,7 @@ using namespace std;
 void zad1()
 {
 	setlocale(0, "rus");
-	cout << "Ââåäèòå ÷èñëî â äåâÿòè÷íîé ñèñòåìå ñ÷èñëåíèÿ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ð´ÐµÐ²ÑÑ‚Ð¸Ñ‡Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ ÑÑ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ";
 	int num;
 	cin >> num;
 	int y = num;
@@ -27,8 +27,8 @@ void zad1()
 		dec += ((num % 10) * pow(9, i));
 		num /= 10;
 	}
-	cout << "×èñëî â äåñÿòè÷íîé: " << dec << endl;
-	cout << "Ïåðåâîäèì â ñåìíàäöàòåðè÷íóþ" << endl;
+	cout << "Ð§Ð¸ÑÐ»Ð¾ Ð² Ð´ÐµÑÑÑ‚Ð¸Ñ‡Ð½Ð¾Ð¹: " << dec << endl;
+	cout << "ÐŸÐµÑ€ÐµÐ²Ð¾Ð´Ð¸Ð¼ Ð² ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÐµÑ€Ð¸Ñ‡Ð½ÑƒÑŽ" << endl;
 	int temp = 0;
 	string hexplus;
 	for (int j = 0; dec > 0; j++)
@@ -50,5 +50,5 @@ void zad1()
 	reverse(hexback.begin(), hexback.end());
 
 
-	cout << "×èñëî â ñåìíàäöàòåðè÷íîé ñèñòåìå: " << hexback << endl;
+	cout << "Ð§Ð¸ÑÐ»Ð¾ Ð² ÑÐµÐ¼Ð½Ð°Ð´Ñ†Ð°Ñ‚ÐµÑ€Ð¸Ñ‡Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ: " << hexback << endl;
 }

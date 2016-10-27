@@ -7,8 +7,8 @@ void zad2();
 int main(int argc, char* arv[])
 {
 	setlocale(0, "rus");
-	cout << "1. Çàäàíèå 1 " << endl;
-	cout << "2. Çàäàíèå 2 " << endl;
+	cout << "1. Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 1 " << endl;
+	cout << "2. Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 2 " << endl;
 	int x = 0;
 	cin >> x;
 	switch (x)

@@ -26,22 +26,22 @@ int gcd(int u, int v)
 	return gcd((v - u) >> 1, u);
 }
 void zad2() {
-	cout << "Ââåäèòå ÷èñëî: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	int tmp;
 	cin >> tmp;
 
 	if (gcd(tmp, 3) == 1)
-		cout << " Íå äåëèòñÿ íà 3" << endl;
+		cout << " ÐÐµ Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 3" << endl;
 	else
-		cout << " Äåëèòñÿ íà 3" << endl;
+		cout << " Ð”ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 3" << endl;
 	if (gcd(tmp, 47) == 1)
-		cout << " Íå äåëèòñÿ íà 47" << endl;
+		cout << " ÐÐµ Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 47" << endl;
 	else
-		cout << " Äåëèòñÿ íà 47" << endl;
+		cout << " Ð”ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 47" << endl;
 
 	if (gcd(tmp, 197) == 1)
-		cout << " Íå äåëèòñÿ íà 197" << endl;
+		cout << " ÐÐµ Ð´ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 197" << endl;
 	else
-		cout << " Äåëèòñÿ íà 197" << endl;
+		cout << " Ð”ÐµÐ»Ð¸Ñ‚ÑÑ Ð½Ð° 197" << endl;
 
 }
